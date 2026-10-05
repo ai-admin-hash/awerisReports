@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "session-summary",
+    "branch": "feature/session-summary",
+    "name": "AI session summary",
+    "feature_id": "PILOT-SESSION-SUMMARY",
+    "audited": "2026-10-05",
+    "published": "2026-10-05",
+    "decision": "DECISION_PENDING",
+    "headline": "All 3 parts can be built under the assumptions",
+    "parts": [
+      {
+        "id": "CORE-SUMMARY-DRAFT",
+        "name": "AI draft of the session summary",
+        "zone": "GRAY",
+        "zone_under_assumptions": "GREEN"
+      },
+      {
+        "id": "REVIEW-APPROVE",
+        "name": "Psychologist edits and approves the draft",
+        "zone": "GRAY",
+        "zone_under_assumptions": "GREEN"
+      },
+      {
+        "id": "SAVE-SUMMARY",
+        "name": "Saving the approved summary in the client file",
+        "zone": "GRAY",
+        "zone_under_assumptions": "GREEN"
+      }
+    ],
+    "buildable_under_assumptions": 3,
+    "assumptions": 11,
+    "evaluator": "Second opinion (OpenAI Evaluator) not available: the last run could not complete"
+  }
+]
